@@ -1,0 +1,58 @@
+body{
+    
+    background-color: lightblue;
+    text-align: center;
+}
+
+.wrapper{
+    width:100%;
+    padding:20px;
+    box-sizing: border-box;
+    
+}
+
+.circle1{
+    width:100px;
+    padding: 50px 0;
+    margin: 60px auto;
+    background: pink;
+    border-radius: 50px;
+    cursor: pointer;
+    line-height: 0;
+    color:dimgrey;
+    transition:background 1s, transform 0.4s; /*effect, I specify which property I want to control*/
+    
+}
+
+.circle2{
+    width:100px;
+    padding: 50px 0;
+    margin: 60px auto;
+    background:#FCFBE3;
+    border-radius: 50px;
+    cursor: pointer;
+    line-height: 0;
+    color:dimgrey;
+    transition:4s; /*effect, I specify which property I want to control*/
+    
+}
+
+.circle1:hover{
+    background: salmon;
+    transform:rotate(360deg);/*it will take 1 second, it takes the time from the transition*/
+}
+
+.circle2:hover{
+    background: salmon;
+    transform:rotate(360deg);
+}
+
+img{
+    /*transform:translateX(200px); /*positive to the right, negative to the left*/
+    
+    /*transform: scale(2);/*make element bigger or smaller, in this case element is bigger two times*/
+    
+    /*transform: translateY(100px) scale(1)*/
+}
+
+/*http://www.w3schools.com/css/css3_2dtransforms.asp*/
